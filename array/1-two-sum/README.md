@@ -25,7 +25,6 @@ My algorithm iterates through the array while maintaining a hash map (`seen`) to
    - If it exists, I return the index of `new_target` from the hash map along with the current index.
    - If it does not exist, I store the current `num` and its index in the hash map.
 
-Using a hash map allows me to look up previously visited complements in constant time rather than using nested loops.
 
 ---
 
